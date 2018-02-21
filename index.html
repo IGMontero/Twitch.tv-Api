@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Free Code Camp - Twitch.tv API </title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <nav class="navbar fixed-top">
+  <a  href="#"class="navbar-brand">
+    <i class="fab fa-twitch"></i>   TWITCH.TV API
+  </a>
+</nav>
+
+  <div class="row">
+    <div class="col-md-4 fixed-left" id="followed-channels">
+      <div class="container">
+        <ul id="followed-channels" class="nav flex-column list-group">
+          <li class="list-group-item active">
+            Followed Channels
+          </li>
+          <li class="list-group-item" id="followed-list">
+            <div class="row" id="followed-list-row">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-8" id="channel-display">
+      <form class="form-inline">
+        <label for="select-topic">I want to see:</label>
+        <select class="custom-select mx-sm-3" id="select-topic">
+          <option value="games">Games</option>
+          <option value="communities">Communities</option>
+        </select>
+        <a href="#" id="search-button" class="btn btn-secondary">
+          <i class="fas fa-search"></i></a>
+      </form>
+      <hr>
+      <div class="row" id="item-pool">
+      </div>
+    </div>
+  </div>
+<div class="navbar fixed-bottom" id="footer">
+  <hr>
+  <p class="lead">Made by Ignacio Montero</p>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

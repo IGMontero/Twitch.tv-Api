@@ -1,0 +1,109 @@
+nav{
+  background-color:#6441A4;
+  text-align:center;
+  z-index:1;
+  box-shadow: 0 8px 6px -6px #000;
+}
+
+.navbar-brand{
+  margin-left:50%;
+  transform:translate(-50%);
+  color:white;
+  font-family: 'Rammetto One', cursive;
+}
+.navbar-brand{
+  color:inherited;
+  text-decoration:none;
+}
+
+.navbar-brand:hover{
+  color:white;
+  text-decoration:none;
+}
+
+ul{
+  width:100%;
+}
+
+.active{
+  background-color:rgb(43, 45, 48)!important;
+  border:none;
+}
+
+#followed-channels{
+  font-family: 'Roboto Slab', serif;
+}
+
+#followed-channels .container{
+  margin-top:30%;
+}
+
+.channel-icon, .channel-name{
+  border-right:1px solid;
+  text-align:center;
+  display:block;
+}
+
+.channel-status{
+  
+}
+
+.list-group-item{
+  background-color:lightgray;
+}
+
+
+#followed-list-row div{
+  border-bottom:1px solid;
+}
+
+.online .fa-circle{
+  color:green;
+}
+.offline .fa-circle{
+  color:red;
+}
+
+#channel-display{
+  background-color:rgb(220, 222, 226);
+  margin-top:100px;
+  display:block;
+  padding:30px;
+}
+
+#channel-display .form-inline{
+  margin-left:20%;
+}
+
+.img-thumbnail{
+  width:100%;
+  padding:0;
+}
+.game-div{
+  display:box;
+}
+
+.game-div .lead{
+  margin-bottom:2px;
+}
+
+.icon {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.channel-name a{
+  color:black;
+}
+
+.channel-activity{
+  font-size:12px;
+}
+
+#footer p{
+  font-family: 'Russo One', sans-serif;
+  background-color:white;
+  border:1px solid black;
+}
